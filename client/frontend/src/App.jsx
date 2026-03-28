@@ -19,7 +19,7 @@ function App() {
 
     setStatus("🧠 Generating AI summary...");
 
-    const res = await axios.post("http://localhost:5000/start", {
+    const res = await axios.post("https://meet-ai-backend.onrender.com/start", {
       meetLink: link,
     });
 
